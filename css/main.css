@@ -46,7 +46,7 @@ a{
    text-decoration: none; 
 }
 
-.header .link:visited{
+.header .link{
    color:var(--primary-title-color);
 }
 
@@ -56,6 +56,7 @@ li{
 .address a{
    color: var(--primary-text-color);
 }
+
 .header .link:hover,
 .header .link:focus{
    color: var(--primary-hover-color);
@@ -224,4 +225,7 @@ button:focus{
 }
 .hide{
    display:none;
+}
+.site-nav .link.current{
+   color: var(--primary-hover-color);
 }
